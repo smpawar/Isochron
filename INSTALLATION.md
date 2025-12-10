@@ -16,7 +16,8 @@ Follow these steps to set up Isochron. You can execute these SQL commands using 
 Isochron relies on `pg_partman` for automatic table partitioning. Before proceeding, you must enable the extension within your database. This typically requires superuser privileges.
 
 ```sql
-CREATE EXTENSION IF NOT EXISTS pg_partman;
+CREATE SCHEMA IF NOT EXISTS partman;
+CREATE EXTENSION IF NOT EXISTS pg_partman SCHEMA partman;
 ```
 
 ### Step 2: Create the Isochron Schema
