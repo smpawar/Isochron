@@ -2,7 +2,7 @@
 
 ## What is Isochron?
 
-Isochron is a simple yet powerful framework to automatically log the execution details of any stored procedure in PostgreSQL. It's designed for users who typically run procedures manually and want an easy way to track their performance and status without changing the procedure's code.
+Isochron is a simple yet powerful framework to automatically log the execution details of any stored procedure in PostgreSQL. It's designed for users who typically run procedures manually and want an easy way to track their performance and status without changing the procedure's code. One of the use cases if runtimes validations after migrating from Oracle, SQL server databases.
 
 By making a small change to how you *call* your procedure, you get:
 -   Automatic logging of start and end times.
